@@ -1,0 +1,197 @@
+.resume {
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.circle-crop {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circle-crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.title {
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.summary {
+  margin-top: 20px;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.summary h2 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.sump {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #333;
+  margin-top: -5px;
+}
+
+.experience {
+  margin-top: 20px;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.experience h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.experience-list {
+  margin-top: -10px;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.experience-list li {
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.tasks {
+  margin-top: 5px;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: #333;
+}
+
+.tasks li {
+  font-weight: lighter;
+  margin-bottom: -5px;
+  padding: 5px;
+}
+
+.education {
+  margin-top: 20px;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.education h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.education-list {
+  margin-top: -10px;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.education-list li {
+  font-weight: bold;
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.skills {
+  margin-top: 20px;
+  font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.skills h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  margin-top: -10px;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.skills-list li {
+  font-weight: lighter;
+  margin-bottom: 6px;
+  padding: 2px;
+}
+
+.contact-info {
+  margin-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.contact-info h2 {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.contact-info ul,
+.contact-info p {
+  margin: 5px 0;
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.contact-info a {
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  font-size: 1em;
+  text-decoration: underline;
+}
