@@ -69,6 +69,12 @@
   margin-top: -5px;
 }
 
+p.paul {
+  font-size: 32;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
 .experience {
   margin-top: 20px;
   font-family: "Franklin Gothic Light", "Arial Narrow", Arial, sans-serif;
